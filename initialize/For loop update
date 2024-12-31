@@ -1,0 +1,8 @@
+ for (int i = 1; i < snakeTailLen; i++) {
+        prev2X = snakeTailX[i];
+        prev2Y = snakeTailY[i];
+        snakeTailX[i] = prevX;
+        snakeTailY[i] = prevY;
+        prevX = prev2X;
+        prevY = prev2Y;
+    }

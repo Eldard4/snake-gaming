@@ -1,0 +1,3 @@
+  // Checks for snake's collision with the wall (|)
+    if (x >= width || x < 0 || y >= height || y < 0)
+        isGameOver = true;

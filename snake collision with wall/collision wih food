@@ -1,0 +1,8 @@
+// Checks for snake's collision with the food (#)
+    if (x == fruitCordX && y == fruitCordY) {
+        playerScore += 10;
+        fruitCordX = rand() % width;
+        fruitCordY = rand() % height;
+        snakeTailLen++;
+    }
+}

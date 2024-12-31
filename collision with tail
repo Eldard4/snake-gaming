@@ -1,0 +1,9 @@
+/ Checks for snake's collision with the wall (|)
+    if (x >= width || x < 0 || y >= height || y < 0)
+        isGameOver = true;
+
+    // Checks for collision with the tail (o)
+    for (int i = 0; i < snakeTailLen; i++) {
+        if (snakeTailX[i] == x && snakeTailY[i] == y)
+            isGameOver = true;
+    }

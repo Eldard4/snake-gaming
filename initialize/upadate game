@@ -1,0 +1,8 @@
+// Function for updating the game state
+void UpdateGame()
+{
+    int prevX = snakeTailX[0];
+    int prevY = snakeTailY[0];
+    int prev2X, prev2Y;
+    snakeTailX[0] = x;
+    snakeTailY[0] = y;
