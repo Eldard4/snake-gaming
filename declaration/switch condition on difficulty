@@ -1,0 +1,16 @@
+cin >> choice;
+    switch (choice) {
+    case '1':
+        dfc = 50;
+        break;
+    case '2':
+        dfc = 100;
+        break;
+    case '3':
+        dfc = 150;
+        break;
+    default:
+        dfc = 100;
+    }
+    return dfc;
+}
