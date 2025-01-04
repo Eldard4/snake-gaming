@@ -6,3 +6,4 @@ void UpdateGame()
     int prev2X, prev2Y;
     snakeTailX[0] = x;
     snakeTailY[0] = y;
+}
