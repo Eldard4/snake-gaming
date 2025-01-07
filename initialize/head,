@@ -29,7 +29,7 @@ void GameRender(string playerName)
                         prTail = true;
                     }
                 }
-                if (!prTail)
+                if (!frTail)
                     cout << " ";
             }
         }

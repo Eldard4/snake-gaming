@@ -3,6 +3,7 @@ int main()
 {
     string playerName;
     cout << "enter your name: ";
+    cout <<"enter regstration number";
     cin >> playerName;
     int dfc = SetDifficulty();
 
