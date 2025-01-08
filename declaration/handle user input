@@ -4,17 +4,17 @@ void UserInput()
     // Checks if a key is pressed or not
     if (_kbhit()) {
         // Getting the pressed key
-        switch (_getch()) {
-        case 'a':
+        switch (_getch()a) {
+        case 'L':
             sDir = LEFT;
             break;
-        case 'd':
+        case 'R':
             sDir = RIGHT;
             break;
-        case 'w':
+        case 'U':
             sDir = UP;
             break;
-        case 's':
+        case 'D':
             sDir = DOWN;
             break;
         case 'x':

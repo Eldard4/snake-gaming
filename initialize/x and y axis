@@ -1,0 +1,5 @@
+/ Snake head coordinates of snake (x-axis, y-axis)
+int x, y;
+// Food coordinates
+int fruitCordX, fruitCordY;
+// variable to store the score of he player

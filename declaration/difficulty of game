@@ -8,3 +8,10 @@ int SetDifficulty()
             "key, the difficulty will be automatically set "
             "to medium\nChoose difficulty level: ";
     cin >> choice;
+
+
+
+
+
+
+}

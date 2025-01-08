@@ -1,0 +1,7 @@
+// creating a delay for according to the chosen
+        // difficulty
+        Sleep(dfc);
+    }
+
+    return 0;
+}
